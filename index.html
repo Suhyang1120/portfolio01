@@ -27,7 +27,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 </style>
-      
+       <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/animate2.min.css">
+        <style>
+            #btn-close-modal {
+                width:100%;
+                text-align: center;
+                cursor:pointer;
+                color:#fff;
+            }
+
+        </style>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	  
@@ -100,7 +110,7 @@
     			<div class="col-md-6 col-lg-5 d-flex">
     				<div class="img-about img d-flex align-items-stretch">
     					<div class="overlay"></div>
-	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/woman2.PNG);">
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/woman4.png);">
 	    				</div>
     				</div>
     			</div>
@@ -114,7 +124,7 @@
 		            	<li class="d-flex"><span>Name:</span> <span>유수향</span></li>
 		            	<li class="d-flex"><span>Date of birth:</span> <span>November 20, 1997</span></li>
 		            	<li class="d-flex"><span>Address:</span> <span>경상남도 양산시 북정서길 16</span></li>
-		            	<li class="d-flex"><span>Completion:</span> <span>부산 IT 교육센터 (반응형 퍼블리싱 & 웹디자인)</span></li>
+		            	<li class="d-flex"><span>Completion:</span> <span>부산IT교육센터 (반응형 퍼블리싱 & 웹디자인)</span></li>
                         <li class="d-flex"><span>Certificate:</span> <span>컴퓨터그래픽스운용기능사<br>운전면허 1종 보통</span></li>
 		            	<li class="d-flex"><span>Email:</span> <span>tngid388@naver.com</span></li>
 		            	<li class="d-flex"><span>Phone: </span> <span>010-8509-6101</span></li>
@@ -313,8 +323,8 @@
         <div class="row d-flex">
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="https://suhyang1120.github.io/project1/" class="block-20" style="background-image: url('images/WEB01.png');">
-              </a>
+              <div class="hover_01"><a href="https://suhyang1120.github.io/project1/" class="block-20" style="background-image: url('images/WEB01.png');">
+              </a><div class="h_text"><a href="https://suhyang1120.github.io/project1/" class="h_a">VIEW MORE</a></div></div>
               <div class="text mt-3 float-right d-block">
               	<div class="d-flex align-items-center mb-3 meta">
 	                <p class="mb-0">
@@ -333,8 +343,9 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
+                <div class="hover_01">
               <a href="https://suhyang1120.github.io/project2/" class="block-20" style="background-image: url('images/web02.png');">
-              </a>
+                    </a><div class="h_text2"><a href="https:https://suhyang1120.github.io/project2/" class="h_a">VIEW MORE</a></div></div>
               <div class="text mt-3 float-right d-block">
               	<div class="d-flex align-items-center mb-3 meta">
 	                <p class="mb-0">
@@ -353,8 +364,9 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry">
+                <div class="hover_01">
               <a href="http://skin-skin4.ofclkm.cafe24.com/" class="block-20" style="background-image: url('images/web03.png');">
-              </a>
+              </a><div class="h_text3"><a href="http://skin-skin4.ofclkm.cafe24.com/" class="h_a">VIEW MORE</a></div></div>
               <div class="text mt-3 float-right d-block">
               	<div class="d-flex align-items-center mb-3 meta">
 	                <p class="mb-0">
@@ -385,85 +397,184 @@
     		<div class="row">
             
           <div class="col-md-6 col-lg-4">
-            <a href="images/cardnews.png" class="media-1" data-fancybox="gallery">
+             <a id="demo02" href="#animatedModal2" class="media-1" data-fancybox="gallery">
               <img src="images/banner4.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>여행, 자연의맛</h2>
                 <span class="category">CARD NEWS</span>
               </div>
             </a>
+               <!--DEMO02-->
+              <div id="animatedModal2">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+            <div  id="btn-close-modal" class="close-animatedModal2"> 
+                <div><img src="images/close.png"></div>
+            </div>
+                
+            <div class="modal-content">
+                <div class="b_img"><img src="images/cardnews.png"></div>
+            </div>
+        </div>
           </div>
           <div class="col-md-6 col-lg-4">
-            <a href="images/banner2-1.jpg" class="media-1" data-fancybox="gallery">
+            <a id="demo01" href="#animatedModal1" class="media-1" data-fancybox="gallery">
               <img src="images/banner2.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>베스킨라빈스</h2>
                 <span class="category">banner design</span>
               </div>
             </a>
+             <!--DEMO01-->
+        <div id="animatedModal1">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+            <div  id="btn-close-modal" class="close-animatedModal1"> 
+                <div><img src="images/close.png"></div>
+            </div>
+                
+            <div class="modal-content">
+                <div class="b_img2"><img src="images/bera.png"></div>
+            </div>
+        </div>
           </div>
           <div class="col-md-6 col-lg-4">
-            <a href="images/banner3-1.jpg" class="media-1" data-fancybox="gallery">
+            <a id="demo03" href="#animatedModal3" class="media-1" data-fancybox="gallery">
               <img src="images/banner3.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>오설록</h2>
                 <span class="category">BANNER DESIGN</span>
               </div>
             </a>
+              <!--DEMO03-->
+        <div id="animatedModal3">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+            <div  id="btn-close-modal" class="close-animatedModal3"> 
+                <div><img src="images/close.png"></div>
+            </div>
+                
+            <div class="modal-content">
+                <div class="b_img2"><img src="images/chirs.png"></div>
+            </div>
+        </div>
           </div>
             <div class="col-md-6 col-lg-4">
-            <a href="images/banner7-1.png" class="media-1" data-fancybox="gallery">
+            <a id="demo04" href="#animatedModal4" class="media-1" data-fancybox="gallery">
               <img src="images/banner7.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>아동학대 캠페인</h2>
                 <span class="category">Poster design</span>
               </div>
             </a>
+                <!--DEMO04-->
+        <div id="animatedModal4">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+            <div  id="btn-close-modal" class="close-animatedModal4"> 
+                <div><img src="images/close.png"></div>
+            </div>
+                
+            <div class="modal-content">
+                <div class="b_img"><img src="images/banner7-1.png"></div>
+            </div>
+        </div>
           </div>
           <div class="col-md-6 col-lg-4">
-            <a href="images/banner5.png" class="media-1" data-fancybox="gallery">
+            <a id="demo05" href="#animatedModal5" class="media-1" data-fancybox="gallery">
               <img src="images/banner5.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>STONE FLOWER</h2>
                 <span class="category">BANNER DESIGN</span>
               </div>
             </a>
+              <!--DEMO05-->
+        <div id="animatedModal5">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+            <div  id="btn-close-modal" class="close-animatedModal5"> 
+                <div><img src="images/close.png"></div>
+            </div>
+                
+            <div class="modal-content">
+                <div class="b_img3"><img src="images/shopping.png"></div>
+            </div>
+        </div>
           </div>
           <div class="col-md-6 col-lg-4">
-            <a href="images/banner8-1.png" class="media-1" data-fancybox="gallery">
+            <a id="demo06" href="#animatedModal6" class="media-1" data-fancybox="gallery">
               <img src="images/banner8.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>희망조약돌 캠페인</h2>
                 <span class="category">BANNER DESIGN</span>
               </div>
             </a>
+              <!--DEMO06-->
+        <div id="animatedModal6">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+            <div  id="btn-close-modal" class="close-animatedModal6"> 
+                <div><img src="images/close.png"></div>
+            </div>
+                
+            <div class="modal-content">
+                <div class="b_img"><img src="images/banner2-1.jpg"></div>
+            </div>
+        </div>
           </div>
             <div class="col-md-6 col-lg-4">
-            <a href="images/banner6.png" class="media-1" data-fancybox="gallery">
-              <img src="images/banner6.png" alt="Image" class="img-fluid">
+            <a id="demo07" href="#animatedModal7" class="media-1" data-fancybox="gallery">
+              <img src="images/mugobanner.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>오설록</h2>
-                <span class="category">BANNER DESIGN</span>
+                <h2>뮤고박스</h2>
+                <span class="category">UI DESIGN</span>
               </div>
             </a>
+                <!--DEMO07-->
+        <div id="animatedModal7">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+            <div  id="btn-close-modal" class="close-animatedModal7"> 
+                <div><img src="images/close.png"></div>
+            </div>
+                
+            <div class="modal-content">
+                <div class="b_img"><img src="images/mugo.jpg"></div>
+            </div>
+        </div>
           </div>
          <div class="col-md-6 col-lg-4">
-            <a href="images/banner9.png" class="media-1" data-fancybox="gallery">
+            <a id="demo08" href="#animatedModal8" class="media-1" data-fancybox="gallery">
               <img src="images/banner9.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>DOROCY 쥬얼리</h2>
                 <span class="category">Detail page</span>
               </div>
             </a>
+             <!--DEMO08-->
+        <div id="animatedModal8">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+            <div  id="btn-close-modal" class="close-animatedModal8"> 
+                <div><img src="images/close.png"></div>
+            </div>
+                
+            <div class="modal-content">
+                <div class="b_img"><img src="images/dorocypage.png"></div>
+            </div>
+        </div>
           </div>
             <div class="col-md-6 col-lg-4">
-            <a href="images/banner4.png" class="media-1" data-fancybox="gallery">
-              <img src="images/banner4.png" alt="Image" class="img-fluid">
+            <a id="demo09" href="#animatedModal9" class="media-1" data-fancybox="gallery">
+              <img src="images/tean.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>여행, 자연의맛</h2>
-                <span class="category">CARD NEWS</span>
+                <h2>태안빛축제</h2>
+                <span class="category">POSTER DESIGN</span>
               </div>
             </a>
+                <!--DEMO09-->
+        <div id="animatedModal9">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+            <div  id="btn-close-modal" class="close-animatedModal9"> 
+                <div><img src="images/close.png"></div>
+            </div>
+                
+            <div class="modal-content">
+                <div class="b_img"><img src="images/teanposter.jpg"></div>
+            </div>
+        </div>
           </div>
             
         </div>
@@ -512,7 +623,7 @@
           			<span class="icon-phone2"></span>
           		</div>
           		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://1234567920">010-8509-6101</a></p>
+	            <p><a href="tel://01085096101">010-8509-6101</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -521,7 +632,7 @@
           			<span class="icon-paper-plane"></span>
           		</div>
           		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com">tngid388@naver.com</a></p>
+	            <p><a href="mailto:tngid388@naver.com">tngid388@naver.com</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -530,7 +641,7 @@
           			<span class="icon-globe"></span>
           		</div>
           		<h3 class="mb-4">Website</h3>
-	            <p><a href="#">yoursite.com</a></p>
+	            <p><a href="#">suhyang1120.github.io/portfolio01</a></p>
 	          </div>
           </div>
         </div>
@@ -590,6 +701,39 @@
             </script>
 
   <script src="js/main.js"></script>
-    
+      
+     <script src="js/jquery2.min.js"></script>
+        <script src="js/animatedModal.js"></script>
+        <script>
+
+            //demo 01
+            $("#demo01").animatedModal();
+
+            //demo 02
+            $("#demo02").animatedModal();
+
+            //demo 03
+            $("#demo03").animatedModal();
+            
+            //demo 04
+            $("#demo04").animatedModal();
+            
+            //demo 05
+            $("#demo05").animatedModal();
+            
+            //demo 06
+            $("#demo06").animatedModal();
+            
+            //demo 07
+            $("#demo07").animatedModal();
+            
+            //demo 08
+            $("#demo08").animatedModal();
+            
+            //demo 09
+            $("#demo09").animatedModal();
+            
+        </script>
+
   </body>
 </html>
