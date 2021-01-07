@@ -1093,7 +1093,7 @@ pre {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 41.66667%;
     flex: 0 0 41.66667%;
-    max-width: 41.66667%; }
+    max-width: 52.66667%; }
   .col-lg-6 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
@@ -1103,7 +1103,7 @@ pre {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 58.33333%;
     flex: 0 0 58.33333%;
-    max-width: 58.33333%; }
+    max-width: 47.33333%; }
   .col-lg-8 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 66.66667%;
@@ -8756,8 +8756,8 @@ h1, h2, h3, h4, h5,
     border: 1px solid #fee25e !important;
     color: #fff !important; }
     .btn.btn-primary:hover {
-      border: 1px solid #c4d9ff !important;
-      background: #3058a1 !important;
+      border: 1px solid #fdda36 !important;
+      background: #fdda36 !important;
       color: #fff !important; }
     .btn.btn-primary.btn-outline-primary {
       border: 2px solid #ffbd39 !important;
@@ -8803,12 +8803,14 @@ h1, h2, h3, h4, h5,
 .ftco-about .img-about {
   width: 100%;
   z-index: 0;
-  position: relative; }
+  position: relative;
+top: 2%}
   .ftco-about .img-about .img {
     display: block;
-    width: 100%;
+    width: 600px;
+	  height: 473px;
     position: relative;
-    z-index: 1; }
+    z-index: 1;}
 
 .ftco-about ul.about-info {
   display: inline-block;
@@ -8908,6 +8910,8 @@ h1, h2, h3, h4, h5,
       color: #fff; }
       .services-1:hover h3:after {
         background: #fff; }
+
+.services-1:hover p{color: #fff}
 
 .progress-wrap {
   width: 100%;
@@ -9231,7 +9235,7 @@ textarea.form-control {
     letter-spacing: 3px; }
   .heading-section h1.big {
     position: absolute;
-    top: 0px;
+    top: -65px;
     left: 0;
     font-size: 7vw;
     color: #fae583;
@@ -9239,7 +9243,8 @@ textarea.form-control {
     font-weight: 900;
 	opacity: 0.2}
     .heading-section h1.big.big-2 {
-      right: 0; }
+      right: 0;
+top: -60%}
   .heading-section h2 {
     font-size: 50px;
     font-weight: 700; padding-bottom: }
