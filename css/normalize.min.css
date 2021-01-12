@@ -10,7 +10,7 @@ html {
     right: 3%;
     margin: 0 auto;
     z-index: 2;}
-.close-animatedModal1>div, .close-animatedModal3>div, .close-animatedModal4>div, .close-animatedModal5>div, .close-animatedModal6>div, .close-animatedModal7>div, .close-animatedModal8>div, .close-animatedModal9>div{position: fixed;
+.close-animatedModal1>div, .close-animatedModal3>div, .close-animatedModal4>div, .close-animatedModal5>div, .close-animatedModal6>div, .close-animatedModal7>div, .close-animatedModal8>div, .close-animatedModal9>div,.close-animatedModal10>div, .close-animatedModal11>div{position: fixed;
     top: 5%;
     right: 3%;
     margin: 0 auto;
@@ -18,8 +18,8 @@ html {
 
 .b_img{margin: 0 auto; padding-top: 0%}
 .b_img2{margin: 0 auto; padding-top: 7.5%}
-.b_img3{margin: 0 auto; padding-top: 3.4%}
-
+.b_img3{margin: 0 auto; padding-top: 2.1%}
+.b_img4{margin: 0 auto; padding-top: 18%}
 
 
 

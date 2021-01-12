@@ -51,6 +51,20 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
+
+/* fastbox bx */
+.fast{max-width: 1920px; margin: 0 auto}
+.fast img{max-width: 100%}
+.f_btn{width: 150px; height: 40px; background: #3695d2; color: white; text-align: center; margin: 0 auto; margin-top: 2%; margin-bottom: 2%; line-height: 40px; cursor: pointer}
+
+.hope{max-width: 1920px; margin: 0 auto}
+.hope img{max-width: 100%}
+.hope>h1{text-align: center; font-size: 30px;}
+
+
+
+
+
 .f{font-weight: 600; padding-right: 25.3%}
 .f_1{padding-left: 52.5%}
 .fast>p{font-weight: 600; float: left}
@@ -78,14 +92,23 @@ html {
 
 .hover_01{position: relative; overflow: hidden}
 .hover_01:hover .h_text {transform: translate(0, 300px);transition: all 0.5s}
+.hover_01:hover .h_text01 {transform: translate(175.5px, 300px);transition: all 0.5s}
 .hover_01:hover .h_text2 {transform: translate(0, 300px);transition: all 0.5s}
+.hover_01:hover .h_text02 {transform: translate(175.5px, 300px);transition: all 0.5s}
 .hover_01:hover .h_text3 {transform: translate(0, 300px);transition: all 0.5s}
-.h_text{width: 350px; height: 350px; position: absolute; transform: translate(0, 350px); background: #2f96d1; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 12px; top: 0}
+.h_text{width: 50%; height: 350px; position: absolute; transform: translate(0, 350px); background: #2f96d1; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 12px; top: 0}
+.h_text01{width: 50%; height: 350px; position: absolute; transform: translate(175.5px, 350px); background: #fff; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 12px; top: 0;}
 .h_a{color: white}
+.h_a1{color: #2f96d1}
+.h_a1:hover{color: #2f96d1}
+.h_a2{color: #295a3c}
+.h_a2:hover{color: #295a3c}
 
-.h_text2{width: 350px; height: 350px; position: absolute; transform: translate(0, 350px); background: #295a3c; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 12px; top: 0}
+
+.h_text2{width: 50%; height: 350px; position: absolute; transform: translate(0, 350px); background: #295a3c; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 12px; top: 0}
+.h_text02{width: 50%; height: 350px; position: absolute; transform: translate(175.5px, 350px); background: #fff; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 12px; top: 0;}
+
 .h_text3{width: 350px; height: 350px; position: absolute; transform: translate(0, 350px); background: #f4d3ce; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 12px; top: 0}
-
 
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -93,7 +116,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Sydmbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -8810,7 +8833,8 @@ top: 2%}
     width: 600px;
 	  height: 473px;
     position: relative;
-    z-index: 1;}
+    z-index: 1;
+}
 
 .ftco-about ul.about-info {
   display: inline-block;
@@ -8925,7 +8949,7 @@ top: 2%}
   height: 10px;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #d3d6da;
+  background: #e5e5e5;
   overflow: visible; }
 
 .progress-bar {
@@ -9427,7 +9451,7 @@ top: -60%}
   color: #1a1a1a; }
 
 .contact-section .box {
-  width: 100%;
+  width: %;
   display: block;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
