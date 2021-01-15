@@ -111,8 +111,9 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-image: url(../images/bg_5.jpg);
-    width: 1920px; height: 752px
+    background-image: url(../images/bg_3.jpg);
+    width: 1920px; height: 752px;
+    background-size: 100% 100%;
 }
 
 .owl-carousel.owl-grab {
