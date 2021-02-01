@@ -4,7 +4,8 @@ body {
   color: #4d4d4d;
   font-weight: 400;
   font-size: 1rem;
-  font-family: OpenSans-Regular
+  font-family: OpenSans-Regular;
+  background-color: #fffcef
 }
 @font-face {font-family: 'OpenSans-Bold';
 src: url("fonts/OpenSans-Bold.ttf") format("truetype");}

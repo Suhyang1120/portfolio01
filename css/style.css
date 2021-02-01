@@ -52,6 +52,31 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 body{height: 100%}
+
+/* moon */
+.start{width: 80px; height: 40px; background-color: #f7c94d; border: 1px solid #f7c94d; transition: height 0.7s; border-radius: 50px; overflow: hidden; position: relative
+animation: start 1s ease infinite;
+  -moz-animation: start 1s ease infinite;
+  -webkit-animation: start 1s ease infinite;}
+.start2{color: #fff; font-family: 'Black Han Sans', sans-serif; position: absolute; top: 20%; left: 10.5%;font-size: 16px }
+.start:hover{height: 80px}
+.start-t{color: #f7c94d; font-family: 'Black Han Sans', sans-serif; position: absolute; top: 33%; left: 10.8%; opacity: 0}
+.start:hover .start-t{color: #fff; opacity: 1}
+.start:hover .start2{display: none}
+
+@keyframes start {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #fff, 0 0 3vw #f19d30, 0 0 10vw #fff, 0 0 10vw #fff, 0 0 .4vw #FED128, .5vw .5vw .1vw #f7c94d;
+    color: #fff;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #e98400, 0 0 1.5vw #f7c94d, 0 0 5vw #f7c94d, 0 0 5vw #f19d30, 0 0 .2vw #f19d30, .5vw .5vw .1vw #f7c94d;
+    color: #806914;
+  }
+}
+
+
 /* fastbox bx */
 .fast{max-width: 1920px; margin: 0 auto}
 .fast img{max-width: 100%}
@@ -65,28 +90,36 @@ body{height: 100%}
 #title{margin: 2% 0}
 #title2{margin: 2% 0}
 
+ul{list-style: none}
+.brand1{font-weight: 600; float: left; padding-left: 0;}
+.brand1>li:nth-child(1){padding-bottom: 51%}
+.brand1>li:nth-child(2){padding-bottom: 19%}
+.brand2>li{float: right}
+.brand3{display: none}
+.b-color{padding-top: 6%; padding-bottom: 6%; width: 43%}
+.b-color>div:nth-child(1){width: 20px; height: 20px; border: 1px solid #2f96d1; background-color: #2f96d1; border-radius: 50%;float: left; margin-right: 27% }
+.b-color>div:nth-child(2){width: 20px; height: 20px; border: 1px solid #999999; background-color: #fff; border-radius: 50%; float: left; margin-right: 27%}
+.b-color>div:nth-child(3){width: 20px; height: 20px; border: 1px solid #363636; background-color: #363636; border-radius: 50%; float: left}
 
-.f{font-weight: 600; padding-right: 25.3%}
-.f_1{padding-left: 52.5%}
-.fast>p{font-weight: 600; float: left}
-.fast:after{display: block; content: ""; clear: both}
-.f2{font-weight: 600; padding-right: 19.5%}
-.f3{font-weight: 600; padding-right: 15%}
-.fast>div:nth-child(2){width: 20px; height: 20px; border: 1px solid #2f96d1; background-color: #2f96d1; border-radius: 50%; float: left; margin-left: 39.5%}
-.fast>div:nth-child(3){width: 20px; height: 20px; border: 1px solid #999999; background-color: #fff; border-radius: 50%; float: left; margin-left: 10%}
-.fast>div:nth-child(4){width: 20px; height: 20px; border: 1px solid #363636; background-color: #363636; border-radius: 50%; float: left; margin-left: 10%}
+.b-color2{padding-top: 6%; padding-bottom: 6%; width: 43%}
+.b-color2>div:nth-child(1){width: 20px; height: 20px; border: 1px solid #295a3c; background-color: #295a3c; border-radius: 50%; float: left; margin-right: 27% }
+.b-color2>div:nth-child(2){width: 20px; height: 20px; border: 1px solid #9da993; background-color: #9da993; border-radius: 50%; float: left; margin-right: 27% }
+.b-color2>div:nth-child(3){width: 20px; height: 20px; border: 1px solid #403c3d; background-color: #403c3d; border-radius: 50%; float: left;}
 
-.fast1>p{font-weight: 600; float: left}
-.fast1:after{display: block; content: ""; clear: both}
-.fast1>div:nth-child(2){width: 20px; height: 20px; border: 1px solid #295a3c; background-color: #295a3c; border-radius: 50%; float: left; margin-left: 39.5%}
-.fast1>div:nth-child(3){width: 20px; height: 20px; border: 1px solid #9da993; background-color: #9da993; border-radius: 50%; float: left; margin-left: 10%}
-.fast1>div:nth-child(4){width: 20px; height: 20px; border: 1px solid #403c3d; background-color: #403c3d; border-radius: 50%; float: left; margin-left: 10%}
+.b-color3{padding-top: 6%; padding-bottom: 6%; width: 43%}
+.b-color3>div:nth-child(1){width: 20px; height: 20px; border: 1px solid #f4d3ce; background-color: #f4d3ce; border-radius: 50%; float: left; margin-right: 27% }
+.b-color3>div:nth-child(2){width: 20px; height: 20px; border: 1px solid #ec7e65; background-color: #ec7e65; border-radius: 50%; float: left; margin-right: 27% }
+.b-color3>div:nth-child(3){width: 20px; height: 20px; border: 1px solid #999999; background-color: #fff; border-radius: 50%; float: left;}
 
-.fast2>p{font-weight: 600; float: left}
-.fast2:after{display: block; content: ""; clear: both}
-.fast2>div:nth-child(2){width: 20px; height: 20px; border: 1px solid #f4d3ce; background-color: #f4d3ce; border-radius: 50%; float: left; margin-left: 39.5%}
-.fast2>div:nth-child(3){width: 20px; height: 20px; border: 1px solid #ec7e65; background-color: #ec7e65; border-radius: 50%; float: left; margin-left: 10%}
-.fast2>div:nth-child(4){width: 20px; height: 20px; border: 1px solid #999999; background-color: #fff; border-radius: 50%; float: left; margin-left: 10%}
+
+/* clear */
+.brand1:after{display: none; content: ""; clear: both}
+.brand2>li:after{display: none; content: ""; clear: both}
+.b-color>div:after{display: none; content: ""; clear: both}
+.b-color2>div:after{display: none; content: ""; clear: both}
+.b-color3>div:after{display: none; content: ""; clear: both}
+
+
 
 .mm2{font-family: 'Black Han Sans', sans-serif; font-size: 30px}
 .mm2>span{color: #5477b8}
@@ -110,6 +143,11 @@ body{height: 100%}
 .h_text02{width: 50%; height: 350px; position: absolute; transform: translate(175.5px, 350px); background: #fff; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 12px; top: 0;}
 
 .h_text3{width: 350px; height: 350px; position: absolute; transform: translate(0, 350px); background: #f4d3ce; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 12px; top: 0}
+
+
+/* 브랜딩 수정 */
+.col-md-4{width: 33.3333%}
+
 
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -8267,7 +8305,7 @@ h1, h2, h3, h4, h5,
     padding-bottom: .7rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: #ddd;
+    color: #;
     font-weight: 400;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span {
@@ -8760,6 +8798,7 @@ h1, h2, h3, h4, h5,
 .bg-primary {
   background: #ffbd39; }
 
+.owl-carousel.home-slider .slider-item .slider-text .one-forth .text{top: 36.5%; left: 42%}
 .btn {
   cursor: pointer;
   -webkit-border-radius: 40px;
@@ -8776,13 +8815,13 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #fdda36;
-    border: 1px solid #fdda36 !important;
+    background: #183656;
+    border: 1px solid #183656 !important;
     color: #fff !important; 
     margin-top: 3%}
     .btn.btn-primary:hover {
-      border: 1px solid #f5cf1b !important;
-      background: #f5cf1b !important;
+      border: 1px solid #06192e !important;
+      background: #06192e !important;
       color: #fff !important; }
     .btn.btn-primary.btn-outline-primary {
       border: 2px solid #ffbd39 !important;
@@ -8886,7 +8925,7 @@ top: 4%}
 .services-1 {
   margin-bottom: 40px;
   padding: 2em;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.7);
   width: 100%;
   -webkit-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
   -moz-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
@@ -9134,7 +9173,7 @@ textarea.form-control {
     font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 9em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
@@ -9380,7 +9419,8 @@ top: -60%}
       margin-bottom: 30px; } }
   @media (max-width: 767.98px) {
     .blog-entry {
-      margin-bottom: 30px; } }
+      margin-bottom: 30px; 
+	  margin: 0 auto} }
   .blog-entry .text {
     width: 100%;
     margin: 0 auto; }
@@ -9755,3 +9795,184 @@ top: -60%}
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+/* 반응형 수정 */
+@media (max-width: 1199px){
+    
+    /* about */
+    .ftco-about .img-about{top: 15%}
+    .ftco-about .img-about .img{height: 397px;}
+    
+    /* branding */
+    .block-20{width:100%; height: 30vh}
+    .brand1>li:nth-child(1){padding-bottom: 46%}
+    .brand1>li:nth-child(2){padding-bottom: 15%}
+    .b-color{width: 55%}
+    .b-color2{width: 55%}
+    .b-color3{width: 55%}
+    
+    /* branding - hover */
+    .hover_01:hover .h_text {transform: translate(0, 25vh);transition: all 0.5s}
+    .hover_01:hover .h_text01 {transform: translate(150px, 25vh);transition: all 0.5s}
+    .hover_01:hover .h_text2 {transform: translate(0, 25vh);transition: all 0.5s}
+    .hover_01:hover .h_text02 {transform: translate(150px, 25vh);transition: all 0.5s}
+    .hover_01:hover .h_text3 {transform: translate(0, 25vh);transition: all 0.5s}
+    .h_text{width: 50%; height: 350px; position: absolute; transform: translate(0, 30vh); background: #2f96d1; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 12px; top: 0}
+    .h_text01{width: 50%; height: 350px; position: absolute; transform: translate(150px, 30vh); background: #fff; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 12px; top: 0;}
+    
+    .h_text2{width: 50%; height: 350px; position: absolute; transform: translate(0, 30vh); background: #295a3c; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 12px; top: 0}
+    .h_text02{width: 50%; height: 350px; position: absolute; transform: translate(150px, 30vh); background: #fff; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 12px; top: 0;}
+
+    .h_text3{width: 100%; height: 350px; position: absolute; transform: translate(0, 30vh); background: #f4d3ce; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 12px; top: 0}
+    
+    /* contact */
+    .p-a{width: 150px; word-break: break-all}
+	
+}
+
+@media (max-width: 991px){
+    
+     /* about */
+    .ftco-about .img-about{top: 12%}
+    .ftco-about .img-about .img{height: 44%}
+    
+     /* branding */
+    .blog-entry .text .heading{font-size: 30px; width: 225px}
+    .block-20{height: 23vh}
+    
+    .brand1{display: none}
+    .brand2{display: none}
+    .brand3{display: block; padding-left: 0;}
+    .br-h{font-weight: 600; width: 100%}
+    .b-color{width: 100%}
+    .b-color2{width: 100%}
+    .b-color3{width: 100%}
+    .brand3>li:nth-child(6){padding-top: 5%}
+    
+     /* branding - hover */
+    .hover_01:hover .h_text {transform: translate(0, 19vh);transition: all 0.5s}
+    .hover_01:hover .h_text01 {transform: translate(110px, 19vh);transition: all 0.5s}
+    .hover_01:hover .h_text2 {transform: translate(0, 19vh);transition: all 0.5s}
+    .hover_01:hover .h_text02 {transform: translate(110px, 19vh);transition: all 0.5s}
+    .hover_01:hover .h_text3 {transform: translate(0, 19vh);transition: all 0.5s}
+    .h_text{width: ; height: 350px; position: absolute; transform: translate(0, 23vh); background: #2f96d1; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 7.5px; top: 0}
+    .h_text01{width: 50%; height: 350px; position: absolute; transform: translate(110px, 23vh); background: #fff; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 7.5px; top: 0;}
+    
+    .h_text2{width: 50%; height: 350px; position: absolute; transform: translate(0, 23vh); background: #295a3c; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 7.5px; top: 0}
+    .h_text02{width: 50%; height: 350px; position: absolute; transform: translate(110px, 23vh); background: #fff; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 7.5px; top: 0;}
+
+    .h_text3{width: 100%; height: 350px; position: absolute; transform: translate(0, 23vh); background: #f4d3ce; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 7.5px; top: 0}
+    
+    
+    /* contact */
+    .contact-section .box{width: 100%}
+    .p-a{width: 285px}
+}
+
+@media (max-width: 767.98px){
+    
+    /* about */
+    .ftco-about .img-about{top: 0%}
+    .ftco-about .img-about .img{height: 397px}
+    
+    /* branding */
+    .block-20{height: 40vh}
+    
+    .brand1{display: block}
+    .brand1>li:nth-child(1){padding-bottom: 10%}
+    .brand1>li:nth-child(2){padding-bottom: 11%}
+    .brand2{display: block}
+    .brand2>li{float: right}
+    .brand2>li:nth-child(2){padding-right: 8px}
+    
+    .b-color{width: 55%; padding-top: 3.5% ;padding-bottom: 2%}
+    .b-color>div:nth-child(1){margin-left: 20%}
+    .b-color2{width: 55%; padding-top: 3.5% ;padding-bottom: 2%}
+    .b-color2>div:nth-child(1){margin-left: 20%}
+    .b-color3{width: 55%; padding-top: 3.5% ;padding-bottom: 2%}
+    .b-color3>div:nth-child(1){margin-left: 20%}
+    .brand3{display: none}
+    
+    /* branding - hover */
+    .hover_01:hover .h_text {transform: translate(0, 340px);transition: all 0.5s}
+    .hover_01:hover .h_text01 {transform: translate(255px, 340px);transition: all 0.5s}
+    .hover_01:hover .h_text2 {transform: translate(0, 340px);transition: all 0.5s}
+    .hover_01:hover .h_text02 {transform: translate(255px, 340px);transition: all 0.5s}
+    .hover_01:hover .h_text3 {transform: translate(0, 340px);transition: all 0.5s}
+    .h_text{width: 50%; height: 350px; position: absolute; transform: translate(0, 40vh); background: #2f96d1; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 7.5px; top: 0}
+    .h_text01{width: 50%; height: 350px; position: absolute; transform: translate(255px, 40vh); background: #fff; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 7.5px; top: 0;}
+    
+    .h_text2{width: 50%; height: 350px; position: absolute; transform: translate(0, 40vh); background: #295a3c; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 7.5px; top: 0}
+    .h_text02{width: 50%; height: 350px; position: absolute; transform: translate(255px, 40vh); background: #fff; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 7.5px; top: 0;}
+
+    .h_text3{width: 100%; height: 350px; position: absolute; transform: translate(0, 390px); background: #f4d3ce; cursor: pointer; text-align: center; transition: all 0.5s; padding-top: 7.5px; top: 0}
+    
+    /* contact */
+    .p-a{width: auto; }
+    
+}
+
+@media (max-width: 506px){
+    
+    .heading-section h1.big{top: -35px; left: 15px}
+    .heading-section h1.big.big-2{top: -30%}
+    
+    /* about */
+    .ftco-about .img-about .img {height: 300px}
+    
+    /* branding */
+    .b-color>div:nth-child(3){float: right}
+    .b-color2>div:nth-child(3){float: right}
+    .b-color3>div:nth-child(3){float: right}
+    .b-color>div:nth-child(2){margin-right: 0%}
+    .b-color2>div:nth-child(2){margin-right: 0%}
+    .b-color3>div:nth-child(2){margin-right: 0%}
+    
+    .h_text01{text-align: revert; margin-left: 10%}
+    .h_text02{text-align: revert; margin-left: 10%}
+    
+}
+
+
+@media (max-width: 489px){
+    
+    
+}
+
+@media (max-width: 410px){
+    
+    .brand1>li:nth-child(1){padding-bottom: 43%}
+    .b-color{padding-bottom: 4%; width: 60%}
+    .b-color2{padding-bottom: 4%; width: 60%}
+    .b-color3{padding-bottom: 4%; width: 60%}
+    .b-color>div:nth-child(1){margin-right: 24%;}
+    .b-color>div:nth-child(2){margin-right: 20%}
+    .b-color2>div:nth-child(1){margin-right: 24%;}
+    .b-color2>div:nth-child(2){margin-right: 20%}
+    .b-color3>div:nth-child(1){margin-right: 24%;}
+    .b-color3>div:nth-child(2){margin-right: 20%}
+}
+
+@media (max-width: 388px){
+ 
+    /* about */
+    .ftco-about .img-about .img {height: 210px; width: 330px}
+    
+    /* branding */
+    .block-20{height: 34vh}
+}
+
+@media (max-width: 347px){
+    .b-color{padding-top: 5%;}
+    .b-color2{padding-top: 5%;}
+    .b-color3{padding-top: 5%;}
+    .b-color>div:nth-child(1){margin-right: 21%;}
+    .b-color2>div:nth-child(1){margin-right: 21%;}
+    .b-color3>div:nth-child(1){margin-right: 21%;}
+}
+@media (max-width: 326px){
+    .b-color>div:nth-child(2){margin-right: 0}
+    .b-color2>div:nth-child(2){margin-right: 0}
+    .b-color3>div:nth-child(2){margin-right: 0}
+}

@@ -111,8 +111,8 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-image: url(../images/bg_3.jpg);
-    width: 1920px; height: 752px;
+    background-image: url(../images/bg_12-1.jpg);
+    width: 1920px; height: 970px;
     background-size: 100% 100%;
 }
 
@@ -230,4 +230,10 @@
     z-index: 1;
     height: 100%;
     width: 100%
+}
+
+
+@media (max-width: 767.98px){
+    .owl-carousel.owl-drag .owl-item{height: 600px}
+    
 }
