@@ -3,24 +3,24 @@ body {
   line-height: 1.7;
   color: #4d4d4d;
   font-weight: 400;
-  font-size: 1rem;
-  font-family: OpenSans-Regular;
+  font-size: 1.08rem;
+  font-family: NanumSquare_acR;
   background-color: #fffcef
 }
 @font-face {font-family: 'OpenSans-Bold';
-src: url("fonts/OpenSans-Bold.ttf") format("truetype");}
+src: url("OpenSans-Bold.ttf") format("truetype");}
 @font-face {font-family: 'OpenSans-Semibold';
-src: url("fonts/OpenSans-Semibold.ttf") format("truetype");}
+src: url("OpenSans-Semibold.ttf") format("truetype");}
 @font-face {font-family: 'OpenSans-ExtraBold';
-src: url("fonts/OpenSans-ExtraBold.ttf") format("truetype");}
+src: url("OpenSans-ExtraBold.ttf") format("truetype");}
 @font-face {font-family: 'OpenSans-ExtraBoldItalic';
-src: url("fonts/OpenSans-ExtraBoldItalic.ttf") format("truetype");}
+src: url("OpenSans-ExtraBoldItalic.ttf") format("truetype");}
 @font-face {font-family: 'OpenSans-Italic';
-src: url("fonts/OpenSans-Italic.ttf") format("truetype");}
+src: url("OpenSans-Italic.ttf") format("truetype");}
 @font-face {font-family: 'OpenSans-Light';
-src: url("fonts/OpenSans-Light.ttf") format("truetype");}
+src: url("OpenSans-Light.ttf") format("truetype");}
 @font-face {font-family: 'OpenSans-Regular';
-src: url("fonts/OpenSans-Regular.ttf") format("truetype");}
+src: url("OpenSans-Regular.ttf") format("truetype");}
 
 @font-face {font-family: 'NotoSansCjKkr-black';
 src: url("fonts/NotoSansCJKkr-black.otf") format("opentype");}
@@ -36,6 +36,18 @@ src: url("fonts/NotoSansCJKkr-medium.otf") format("opentype");}
 src: url("fonts/NotoSansCJKkr-regular.otf") format("opentype");}
 @font-face {font-family: 'NotoSansCjKkr-thin';
 src: url("fonts/NotoSansCJKkr-thin.otf") format("opentype");}
+@font-face {
+    font-family: 'NanumSquare_acEB';
+    src: url("NanumSquare_acEB.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'NanumSquare_acR';
+    src: url("NanumSquare_acR.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'NanumSquare_acB';
+    src: url("NanumSquare_acB.ttf") format("truetype");
+}
 
 
 
@@ -50,7 +62,7 @@ src: url("fonts/NotoSansCJKkr-thin.otf") format("opentype");}
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
-  transition: .3s all ease; }
+  transition: .5s all ease; }
   a:hover {
     text-decoration: none; }
 
@@ -89,6 +101,9 @@ h1, h2, h3, h4, h5,
 .text_c>.p3>span{padding-left: 84%}
 .text_c>.p4{font-weight: 650; color: #6b6b6b; margin-bottom: -5px}
 .text_c>.p4>span{padding-left: 76%}
+
+.navbar-brand{font-family: OpenSans-Regular}
+.nav-item{font-family: OpenSans-Regular}
 
 
 .visual>h2{font-family: OpenSans-Bold; text-align: center; color: #f19a00; font-size: 2rem; font-weight: 650}
